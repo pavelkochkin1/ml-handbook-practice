@@ -1,0 +1,20 @@
+[tool.poetry]
+name = "ml-handbook-practice"
+version = "0.1.0"
+description = ""
+authors = ["Pavel Kochkin <kochkin27@gmail.com>"]
+license = "MIT"
+readme = "README.md"
+packages = [{include = "ml_handbook_practice"}]
+
+[tool.poetry.dependencies]
+python = ">=3.9,<3.13"
+numpy = "^1.26.0"
+pandas = "^2.1.0"
+jupyter = "^1.0.0"
+ipykernel = "^6.25.2"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
